@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer MVT</title>
+</head>
+<body>
+    {%for familiar in familiares %}
+
+    <div>
+        <p>Nombre: {{familiar.nombre}}</p>
+        <p>Apellido: {{familiar.apellido}}</p>
+        <p>Edad: {{familiar.edad}}</p>
+        <p>Fecha de Nacimiento: {{familiar.fecha_nacimiento}}</p>
+
+    </div>
+    {%endfor%}
+</body>
+</html>
